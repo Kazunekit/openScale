@@ -108,7 +108,7 @@ android {
         create("beta") {
             initWith(getByName("debug"))
             signingConfig = signingConfigs.getByName("debug")
-            applicationIdSuffix = ".beta"
+            applicationIdSuffix = ".oss"
             versionNameSuffix = "-beta"
             manifestPlaceholders["appName"] = "openScale beta"
             manifestPlaceholders["appIcon"] = "@mipmap/ic_launcher_beta"
